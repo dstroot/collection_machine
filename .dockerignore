@@ -1,0 +1,5 @@
+*
+
+# Only include these files:
+!collection_machine
+!sql/sql.sql

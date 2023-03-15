@@ -1,0 +1,75 @@
+hash: 27b17aa7f115ff5efaf9642e2bd69fd46ac0ac5389287b9ebd5768c6c8cd1dad
+updated: 2017-02-08T13:38:37.267825143-08:00
+imports:
+- name: github.com/beorn7/perks
+  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+  subpackages:
+  - quantile
+- name: github.com/denisenkom/go-mssqldb
+  version: aa91b9def474faafb2406c8b562ae1e0e1f89ea4
+- name: github.com/dstroot/utility
+  version: b6cfa7ea2be4ab89e0c4489a49469888997655f6
+- name: github.com/gchaincl/dotsql
+  version: 5487b6a5fc12870425fc14d9e05a3fabddd91d7e
+- name: github.com/golang/protobuf
+  version: 2402d76f3d41f928c7902a765dfc872356dd3aad
+  subpackages:
+  - proto
+- name: github.com/joeshaw/envdecode
+  version: 32118ea5f56d5358408e78d150be1843a695e35c
+- name: github.com/joho/godotenv
+  version: 726cc8b906e3d31c70a9671c90a13716a8d3f50d
+  subpackages:
+  - autoload
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/prometheus/client_golang
+  version: c5b7fccd204277076155f10851dad72b76a49317
+  subpackages:
+  - prometheus
+- name: github.com/prometheus/client_model
+  version: fa8ad6fec33561be4280a8f0514318c79d7f6cb6
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: dd2f054febf4a6c00f2343686efb775948a8bff4
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 1878d9fbb537119d24b21ca07effd591627cd160
+- name: golang.org/x/crypto
+  version: 9b1a210a06ea1176ec1f0a1ddf83ad7463b8ea3e
+  subpackages:
+  - bcrypt
+  - blowfish
+  - md4
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: 50101461d59f26b13c876f57aab314ce55387671
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: 8ddce2a84170772b95dd5d576c48d517b22cac63
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/smartystreets/assertions
+  version: 2063fd1cc7c975db70502811a34b06ad034ccdf2
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: d4c757aa9afd1e2fc1832aaab209b5794eb336e1
+  subpackages:
+  - convey
+  - convey/gotest
+  - convey/reporting
